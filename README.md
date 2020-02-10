@@ -83,7 +83,7 @@ entry time.
 ## 2.Vehicle Parking
 * We have divided the parking scenario into two parts<br/>
  i.  Commercial Parking<br/>
- ii. Visitor Parking <br/>
+ ii. Residential Parking <br/>
  
 #### i.Commercial Parking
 * In this scenario whenever you visit any public or commercial place you have to traverse whole
