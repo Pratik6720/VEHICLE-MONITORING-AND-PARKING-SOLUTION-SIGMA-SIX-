@@ -1,0 +1,6 @@
+argparse
+opencv-python
+numpy
+logging
+colors
+yaml

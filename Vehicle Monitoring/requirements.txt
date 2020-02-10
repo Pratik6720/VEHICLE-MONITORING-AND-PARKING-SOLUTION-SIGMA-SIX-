@@ -1,0 +1,5 @@
+numpy
+opencv-python
+json
+requests
+datetime

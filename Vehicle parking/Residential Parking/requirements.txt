@@ -1,0 +1,6 @@
+numpy
+opencv-python
+json
+requests
+datetime
+psycopg2
