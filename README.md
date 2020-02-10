@@ -1,3 +1,4 @@
+Important:  If while downloading this repo, you encounter 'Failed - Network error' problem,then try downloading again since it's a big one.
 # Vehicle Monitoring and Parking System
 
 This is our implementation of parking and detecting based on [YOLO](https://pjreddie.com/darknet/yolo/) 
