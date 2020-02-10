@@ -5,7 +5,7 @@ approach done in Python 3.
 We have trained our model using YOLOv3, based on the [Darknet framework](https://github.com/AlexeyAB/darknet) for object detection (licence plate in this case) with the help of Google Colab.
 The training data can be found in the following directory: ./Dataset/
 
-#####The repository includes:
+#### The repository includes:
 * Yolo based approach to Detect Vehicle Number Plates.
 * OCR and text extraction of detected Number Plate.
 * Parking and Monitoring premised on recognized feature.
@@ -13,7 +13,7 @@ The training data can be found in the following directory: ./Dataset/
 
 
 
-####Results from training:
+#### Results from training:
 ![Training stats](assets/result.png)
 
 The columns in the given image represents Iterations, Loss of current iteration, average loss,
@@ -71,20 +71,20 @@ is a Visitor.
 entry time.
 * You can view our database entries by running `resident.py` in **Database folder**  
  
-####Results of Vehicle Monitoring(Identified as Resident):
+#### Results of Vehicle Monitoring(Identified as Resident):
 ![Training stats](assets/Resident.png)
 
 
-####Results of Vehicle Monitoring(Identified as Visitor):
+#### Results of Vehicle Monitoring(Identified as Visitor):
 ![Training stats](assets/Visitor.png)
 
 
-##2.Vehicle Parking
+## 2.Vehicle Parking
 * We have divided the parking scenario into two parts<br/>
  i.  Commercial Parking<br/>
  ii. Visitor Parking <br/>
  
-####i.Commercial Parking
+#### i.Commercial Parking
 * In this scenario whenever you visit any public or commercial place you have to traverse whole
 parking in search of a parking spot.
 * What our system does is that it shows which slot is available for parking and tells the 
@@ -100,15 +100,15 @@ empty and it displays it.
 will show slot not available.
 * You can view our database entries by running `commercialparking.py` in **Database folder**
 
-####Results of Commercial Parking(Slots are available):
+#### Results of Commercial Parking(Slots are available):
 ![Training stats](assets/Allocating the empty slot.png)
 
 
-####Results of Commercial Parking(Slots are not available):
+#### Results of Commercial Parking(Slots are not available):
 ![Training stats](assets/NoEmptyspace.png)
 
 
-####ii.Residential Parking
+#### ii.Residential Parking
 * Nowdays in Resident socities you are permanently alloted some parking slot and you
 park your vehicle at that place only and you pay for that place.
 * What our system does in case of Residential Parking is that it classifies whether it is 
@@ -130,18 +130,18 @@ slot_allot('GJ18BG5803',5)
 * If classified as visitor you can view our database entries by running `visitor.py` in **Database folder**
 
 
-####Results of Residential Parking(Identified as Resident):
+#### Results of Residential Parking(Identified as Resident):
 ![Training stats](assets/Residentdetails.png)
 
 
-####Results of Residential Parking(Identified as Visitor):
+#### Results of Residential Parking(Identified as Visitor):
 ![Training stats](assets/Visitor.png)
 
 
-####Results of Residential Parking(Someone has parked at your Slot):
+#### Results of Residential Parking(Someone has parked at your Slot):
 ![Training stats](assets/Wrongslot.png)
 
-####3.No Parking Solution
+#### 3.No Parking Solution
 
 * It happens frequently that people deliberately park at restricted parking zones. So it is
 a necessity to prevent this from occuring chronically. 
