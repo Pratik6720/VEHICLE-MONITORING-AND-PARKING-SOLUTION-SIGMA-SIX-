@@ -4,11 +4,11 @@ import psycopg2
 
 def checkValue(plate_value):
     try:
-        connection = psycopg2.connect(user="postgres",
-                                      password="postgres",
-                                      host="mydbinstance.cjfxaiq2xh1x.us-east-2.rds-preview.amazonaws.com",
-                                      port="5432",
-                                      database="sih2020")     #Database connection
+        connection = psycopg2.connect(user="",
+                                      password="",
+                                      host="",
+                                      port="",
+                                      database="")     #Database connection
         # print("connected")
 
         # create a cursor object
