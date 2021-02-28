@@ -5,11 +5,11 @@ import time
 def slot_remove(plate_value):
     # print('value from exp file is :', plate_value)
     try:
-        connection = psycopg2.connect(user="postgres",
-                                      password="postgres",
-                                      host="mydbinstance.cjfxaiq2xh1x.us-east-2.rds-preview.amazonaws.com",
-                                      port="5432",
-                                      database="sih2020")
+        connection = psycopg2.connect(user="",
+                                      password="",
+                                      host="",
+                                      port="",
+                                      database="")
         # if the number plate is found in parking record database it means that the particular car is already parked and is exiting
         # if the number plate is not found in parking record database means it is entering for the first time
         # so it allots the slot to that car
