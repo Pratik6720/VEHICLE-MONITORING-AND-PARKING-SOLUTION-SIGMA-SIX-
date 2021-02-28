@@ -10,7 +10,7 @@ def ocr():
             'https://api.platerecognizer.com/v1/plate-reader/',
             data=dict(regions=regions),  # Optional
             files=dict(upload=fp),
-            headers={'Authorization': 'Token 3dfdc73aa9ddf8a9f9ec8dec76c1a06b6b3ef156 '})
+            headers={'Authorization': 'api token'})
     fetch_data = response.json()
     # pprint(fetch_data)
 
